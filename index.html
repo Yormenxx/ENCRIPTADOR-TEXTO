@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="shortcut icon" href="./images/lupa.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/bgc.css">
+    <link rel="stylesheet" href="./styles/scrollbar.css">
+
+
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <div class="background">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div> 
+
+    <header>
+
+        <nav>
+            <span>Encriptador de texto</span>
+
+        </nav>
+
+    </header>
+
+
+    <div class="container__encryp">
+
+        <div class="container__input_area">
+
+            <textarea  name="texto-encryp" id="texto-encryp" placeholder="Escribe tú texto aqui" class="area-texto"></textarea>
+        
+        </div>
+
+
+    </div>
+
+    <div class="container__bttns">
+        
+        <div class="butons">
+
+            <button id="Encryp">Encriptar</button>
+
+            <button id="Desencryp">Desencriptar</button>
+
+        </div>
+
+        <div id="copy" data-content="Copiar al portapapeles">
+
+            <i  class="fa-regular fa-copy fa-2xl" ></i>
+
+        </div>
+
+    </div>
+
+    <div id="container-texto">
+
+        <!-- <p class="text-information">No haz ingresado ningún texto</p> -->
+
+        <textarea id="mostrar-texto"></textarea>
+
+    </div>
+
+
+
+<script src="./js/index.js"></script>
+    
+</body>
+</html>
