@@ -1,0 +1,58 @@
+//media queries
+
+
+
+@media screen  and (max-width: 768px){
+
+}
+
+
+@media screen  and (max-width: 480px){
+    
+    .container__bttns{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-bottom: 30px;
+    }
+
+    .butons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    #Encryp, #Desencryp{
+        margin-left: 0px;
+    }
+}
+
+@media screen  and (max-width: 360px){
+    
+    .container__bttns{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-bottom: 30px;
+    }
+
+    .butons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    #Encryp, #Desencryp{
+        margin-left: 0px;
+    }
+}

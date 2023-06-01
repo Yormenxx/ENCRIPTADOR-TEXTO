@@ -31,7 +31,7 @@ $btnEncriptar.addEventListener("click",()=>{
     document.getElementById("mostrar-texto").innerHTML= txtEncriptar;
 
     // $boxInfo.classList.add("disabled")
-
+    
    
 })
 
