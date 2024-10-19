@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,43 +49,52 @@
     </header>
 
 
-    <div class="container__encryp">
+    <main>
 
-        <div class="container__input_area">
-
-            <textarea  name="texto-encryp" id="texto-encryp" placeholder="Escribe tú texto aqui" class="area-texto"></textarea>
         
+        <div class="container__encryp">
+
+            <div class="container__input_area">
+    
+                <textarea  name="texto-encryp" id="texto-encryp" placeholder="Escribe tú texto aqui" class="area-texto"></textarea>
+            
+            </div>
+    
+    
         </div>
-
-
-    </div>
-
-    <div class="container__bttns">
-        
-        <div class="butons">
-
-            <button id="Encryp">Encriptar</button>
-
-            <button id="Desencryp">Desencriptar</button>
-
+    
+        <div class="container__bttns">
+            
+            <div class="butons">
+    
+                <button id="Encryp">Encriptar</button>
+    
+                <button id="Desencryp">Desencriptar</button>
+    
+            </div>
+    
+            <div id="copy" >
+    
+                <i  class="fa-regular fa-copy fa-2xl" ></i>
+    
+            </div>
+    
         </div>
-
-        <div id="copy" >
-
-            <i  class="fa-regular fa-copy fa-2xl" ></i>
-
+    
+        <div id="container-texto">
+    
+            <!-- <p class="text-information">No haz ingresado ningún texto</p> -->
+    
+            <textarea id="mostrar-texto"></textarea>
+    
         </div>
+    
 
-    </div>
 
-    <div id="container-texto">
+    </main>
 
-        <!-- <p class="text-information">No haz ingresado ningún texto</p> -->
 
-        <textarea id="mostrar-texto"></textarea>
-
-    </div>
-
+ 
 
 
 <script src="./js/index.js"></script>
